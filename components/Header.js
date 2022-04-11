@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import openseaLogo from '../assets/opensea.png'
+import AiOutlineSearch from 'react-icons/ai'
 
 const style = {
 wrapper: `bg-[#04111d] w-screen px-[1.2rem] py-[0.8rem] flex `,
@@ -19,9 +21,14 @@ return (
     <div className={style.wrapper}>
     <Link href='/'>
         <div className={style.logoContainer}>
-            <Image src={openseaLogo} height={60} width={60} />
+            <Image src={openseaLogo} height={40} width={40} />
         </div>
     </Link>
+    <div className={style.searchBar}>
+        <div className={style.searchIcon}>
+ 
+        </div>
+    </div>
 
     </div>
 )
