@@ -37,11 +37,18 @@ return (
         />
     </div>
     <div className={style.headerItems}>
+        <Link href='/collections/0xFb75727ea0C45BB41870e59453902744Ef384eC0'>
         <div className={style.headerItem}>Collections</div>
-        <div className={style.headerItem}>Collections</div>
-        <div className={style.headerItem}>Collections</div>
-        <div className={style.headerItem}>Collections</div>
-        <div className={style.headerItem}>Collections</div>
+        </Link>
+        <div className={style.headerItem}>Stats</div>
+        <div className={style.headerItem}>Resources</div>
+        <div className={style.headerItem}>Create</div>
+        <div className={style.headerIcon}>
+            <CgProfile />
+        </div>
+        <div className={style.headerIcon}>
+            <MdOutlineAccountBalanceWallet />
+            </div>
     </div>
     </div>
 )
