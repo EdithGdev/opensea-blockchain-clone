@@ -28,6 +28,35 @@ const Hero = () => {
                     <div className={style.title}>
                         Discover, collect, and sell extraordinary NFTs
                     </div>
+                    <div className={style.description}>
+                        Opensea is the world&apos;s first and largest NFT marketplace
+                    </div>
+                    <div className={style.ctaContainer}>
+                        <button className={style.accentedButton}>Explore</button>
+                        <button className={style.button}>Create</button>
+                    </div>
+                </div>
+                <div className={style.cardContainer}>
+                    <img 
+                    className='rounded-t-lg' 
+                    src='https://lh3.googleusercontent.com/-mrglknzUSrn6SZhH0hZ3c14gyQgTSvcx1kAKimiNhChrlrsJHfd9KGbUmVlW4Ji5lWFVOUkF3-KxR5wDDe-7NB-JIWgXfSVg97o=w600'
+                    alt=''
+                    />
+                    <div className={style.infoContainer}>
+                        <img
+                        className='h-[2.25rem] rounded-full' 
+                        src='https://lh3.googleusercontent.com/4a_5U42qB3mXxtGsp5Hmx0uXHiuciAAgNd-Yrz9vaAF6ZsiWdBrKJ5KF6q0nKyRfksgz8x_wOzGCBQAZKpyNb-fNgkeNfmlhqtO9r_I=s80' 
+                        alt=''
+                        />
+                        <div className={style.author}>
+                            <div className={style.name}>Set me free</div>
+                            <a 
+                            className='text-[#1868b7]'
+                            href='https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/51276819889711096795037250986523694631773524818686843209194377511618153021441'>
+                             AlbaInTheRainbow   
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
